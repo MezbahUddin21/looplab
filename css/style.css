@@ -1,0 +1,84 @@
+body{
+	scroll-behavior: smooth;
+	background: #333;
+}
+
+.nav-link{
+	color: aqua;
+	font-size: 20px;
+}
+
+
+.navbar {
+	scroll-behavior: smooth;
+  border-bottom: 4px solid blue; 
+}
+
+.dropdown-item:hover{
+	background-color: #CBD0D6;
+}
+
+#fa1{
+	color: green;
+	background: #fff;
+	padding: 2px;
+	font-size: 36px;
+	border-radius: 5px
+}
+#fa2{
+	color: white;
+	background: #282923;
+	padding: 2px;
+	font-size: 36px;
+	border-radius: 5px
+}
+
+#home-section{
+  background: url('../img/pixel1.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+ }
+
+.dark-overly{
+	min-height: 700px;
+	background: #282933c7;
+
+}
+#head-section-row{
+	padding-top: 130px
+}
+.navbar{
+	opacity: 0.9
+}
+.card{
+	opacity: 0.6
+}
+
+
+
+
+
+
+
+@media(max-width: 400px){
+	#font-size-h1{
+		font-size: 36px;
+	}
+	#fa1{
+	
+	border-radius:3px;
+	font-size: 24px; 
+}
+  #fa2{
+	
+	border-radius:3px;
+	font-size: 24px; 
+}
+#font-for-p p{
+	font-size: 16px
+}
+
+
+}
